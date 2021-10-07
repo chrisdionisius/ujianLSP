@@ -1,0 +1,22 @@
+body{
+    background-color: lightskyblue;
+}
+.segment{
+    text-align: center;
+    margin: 250px auto;
+    width: 300px;
+}
+.greet{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+	color: aliceblue;
+	opacity: .9;
+	transition: .3s;
+	
+}
+.greet:hover{
+	text-shadow: -5px 5px 0 lightblue,
+		-8px 8px 0 rgb(91, 189, 250),
+		-11px 11px 0  lightseagreen;
+}
